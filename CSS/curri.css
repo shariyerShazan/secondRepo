@@ -1,0 +1,30 @@
+.cardCurri{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 230px;
+    box-shadow: 1px 1px rgb(252, 251, 251);
+    
+}
+
+.cardFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+
+}
+body {
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+    .cardFlex{
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+    }
+}

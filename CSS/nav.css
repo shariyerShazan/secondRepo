@@ -1,0 +1,63 @@
+
+ .navBtn{
+    background: orange;
+    padding: 7px 32px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font: bold;
+    font-size: 18px;
+ }
+ nav li a{
+    text-decoration: none;
+
+ }
+ nav li {
+    list-style: none;
+ }
+
+ .navImg{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+ }
+ .navList{
+    display: flex;
+    gap: 38px;
+ }
+
+ .navItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .navImg img{
+    width: 35px;
+    height: 35px;
+ }
+ .navImg p{
+    font-size: 25px;
+    font: bold;
+ }
+.fa-bars{
+    visibility: hidden;
+}
+.hrTag{
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+    .hidden{
+        visibility: hidden;
+    }
+    .fa{
+        visibility: visible;
+    }
+    .hrTag{
+        visibility: visible;
+    }
+
+}
+.show { 
+    visibility: visible ; 
+}

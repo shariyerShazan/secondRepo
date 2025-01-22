@@ -1,0 +1,23 @@
+.heroSec img{
+    height: 380px;
+    
+}
+.heroSec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heroText{
+    max-width: 300px;
+}
+@media only screen and (max-width: 767px) {
+    .heroSec{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .heroText{
+        text-align: center;
+    
+    }
+
+}

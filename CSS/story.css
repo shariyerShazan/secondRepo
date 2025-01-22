@@ -1,0 +1,77 @@
+.storyImg{
+    position: relative;
+}
+.storyDate{
+    padding: 12px;
+    background: aqua;
+    border: none;
+    border-radius: 36px;
+    position: absolute;
+    left: 70px;
+    bottom: -18px;
+    
+}
+
+.storyCard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 2fr 1fr 1fr; */
+    gap: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  
+}
+
+.cardW{
+    min-width: 200px;
+}
+.cardHidden{
+    min-width: 400px;
+}
+
+.vw{ 
+    height: 100vh;
+}
+
+.buttonStory{
+    background: black; padding: 10px 45px; color: white; font-size: 20px; border:none ; border-radius: 12px; margin: 20px 0px;
+}
+@media only screen and (max-width: 767px) {
+    .cardHidden{
+        visibility: hidden;
+        position: relative;
+    }
+    
+    .storyCard{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        /* bottom: 50px; */
+
+    }
+
+    .cardW{
+        max-width: 100px;
+    }
+    .storyDate{
+        padding: 8px;
+        background: aqua;
+        border: none;
+        border-radius: 36px;
+        position: absolute;
+        left: 20px;
+        bottom: -18px;
+    }
+    .vw{ 
+        height: 100vh;
+    }
+    .buttonStory{
+        margin: 65px 0px;
+    }
+}
