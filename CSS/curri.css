@@ -17,6 +17,11 @@
     gap: 12px;
 
 }
+.okay:hover{
+    scale: 105%;
+    
+}
+
 body {
     overflow-x: hidden;
 }
